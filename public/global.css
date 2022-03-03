@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;500&display=swap');
+
+:root {
+	--maincolor: #333;
+	--textcolor: #babb0e;
+	--listItemHeight: 6rem; 
+
+	font-size: 12px;
+}
+
+::selection {
+	color: #111;
+	background:yellow;
+}
+
+::-webkit-scrollbar {
+	width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0)
+}
+
+::-webkit-scrollbar-thumb {
+	background: #111;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #222;
+}
+
+body {
+	font-family: "Yantramanav";
+	font-size: 2rem;
+	font-weight: 500;
+	margin: 0;
+	background-color: var(--maincolor);
+}
+
+li {
+	display: grid;
+	align-items: center;
+	box-sizing: border-box;
+	position: relative;
+	background-color: #111;
+	border-radius: 0.3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+
+	width: 100%;
+	height: var(--listItemHeight);
+	list-style-type: decimal;
+	margin-bottom: 1rem;
+
+	user-select: none;
+}
