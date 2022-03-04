@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;500;700&display=swap');
 
 :root {
 	--maincolor: #333;
@@ -31,7 +31,7 @@
 
 body {
 	font-family: "Yantramanav";
-	font-size: 2rem;
+	font-size: 2.2rem;
 	font-weight: 500;
 	margin: 0;
 	background-color: var(--maincolor);

@@ -30,6 +30,7 @@
 		font-size: 6rem;
 		display: grid;
 		place-items: center;
+		user-select: none;
 	}
 
 	#leftOption {
